@@ -1,4 +1,6 @@
-﻿using System;
+﻿using MaterialSkin;
+using MaterialSkin.Controls;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -10,12 +12,16 @@ using System.Windows.Forms;
 
 namespace ConvertionCalculatorArabicAndRomanNumbers
 {
-    public partial class Form1 : Form
+    public partial class Form1 : MaterialForm
     {
         public bool NeedToCleanOutput = false;
         public Form1()
         {
             InitializeComponent();
+
+            MaterialSkinManager materialSkinManager = MaterialSkinManager.Instance;
+            materialSkinManager.AddFormToManage(this);
+            materialSkinManager.Theme = MaterialSkinManager.Themes.LIGHT;
         }
 
         private void Form1_Load(object sender, EventArgs e)

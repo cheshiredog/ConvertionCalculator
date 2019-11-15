@@ -51,7 +51,7 @@
             this.UserInputTB.BackColor = System.Drawing.SystemColors.Window;
             this.UserInputTB.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.UserInputTB.Font = new System.Drawing.Font("Arial Narrow", 18F, System.Drawing.FontStyle.Bold);
-            this.UserInputTB.Location = new System.Drawing.Point(12, 12);
+            this.UserInputTB.Location = new System.Drawing.Point(12, 80);
             this.UserInputTB.MaxLength = 7;
             this.UserInputTB.Multiline = true;
             this.UserInputTB.Name = "UserInputTB";
@@ -68,7 +68,7 @@
             this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button7.Font = new System.Drawing.Font("Arial Narrow", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button7.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.button7.Location = new System.Drawing.Point(12, 168);
+            this.button7.Location = new System.Drawing.Point(12, 236);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(99, 48);
             this.button7.TabIndex = 1;
@@ -83,7 +83,7 @@
             this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button8.Font = new System.Drawing.Font("Arial Narrow", 18F, System.Drawing.FontStyle.Bold);
             this.button8.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.button8.Location = new System.Drawing.Point(117, 168);
+            this.button8.Location = new System.Drawing.Point(117, 236);
             this.button8.Name = "button8";
             this.button8.Size = new System.Drawing.Size(99, 48);
             this.button8.TabIndex = 2;
@@ -99,7 +99,7 @@
             this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button9.Font = new System.Drawing.Font("Arial Narrow", 18F, System.Drawing.FontStyle.Bold);
             this.button9.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.button9.Location = new System.Drawing.Point(222, 168);
+            this.button9.Location = new System.Drawing.Point(222, 236);
             this.button9.Name = "button9";
             this.button9.Size = new System.Drawing.Size(99, 48);
             this.button9.TabIndex = 3;
@@ -114,7 +114,7 @@
             this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button6.Font = new System.Drawing.Font("Arial Narrow", 18F, System.Drawing.FontStyle.Bold);
             this.button6.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.button6.Location = new System.Drawing.Point(222, 222);
+            this.button6.Location = new System.Drawing.Point(222, 290);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(99, 48);
             this.button6.TabIndex = 4;
@@ -129,7 +129,7 @@
             this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button5.Font = new System.Drawing.Font("Arial Narrow", 18F, System.Drawing.FontStyle.Bold);
             this.button5.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.button5.Location = new System.Drawing.Point(117, 222);
+            this.button5.Location = new System.Drawing.Point(117, 290);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(99, 48);
             this.button5.TabIndex = 5;
@@ -144,7 +144,7 @@
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button4.Font = new System.Drawing.Font("Arial Narrow", 18F, System.Drawing.FontStyle.Bold);
             this.button4.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.button4.Location = new System.Drawing.Point(12, 222);
+            this.button4.Location = new System.Drawing.Point(12, 290);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(99, 48);
             this.button4.TabIndex = 6;
@@ -159,7 +159,7 @@
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button3.Font = new System.Drawing.Font("Arial Narrow", 18F, System.Drawing.FontStyle.Bold);
             this.button3.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.button3.Location = new System.Drawing.Point(222, 276);
+            this.button3.Location = new System.Drawing.Point(222, 344);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(99, 48);
             this.button3.TabIndex = 7;
@@ -174,7 +174,7 @@
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Font = new System.Drawing.Font("Arial Narrow", 18F, System.Drawing.FontStyle.Bold);
             this.button2.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.button2.Location = new System.Drawing.Point(117, 276);
+            this.button2.Location = new System.Drawing.Point(117, 344);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(99, 48);
             this.button2.TabIndex = 8;
@@ -189,7 +189,7 @@
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Arial Narrow", 18F, System.Drawing.FontStyle.Bold);
             this.button1.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.button1.Location = new System.Drawing.Point(12, 276);
+            this.button1.Location = new System.Drawing.Point(12, 344);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(99, 48);
             this.button1.TabIndex = 9;
@@ -204,7 +204,7 @@
             this.backspaceButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.backspaceButton.Font = new System.Drawing.Font("Arial Narrow", 18F, System.Drawing.FontStyle.Bold);
             this.backspaceButton.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.backspaceButton.Location = new System.Drawing.Point(170, 384);
+            this.backspaceButton.Location = new System.Drawing.Point(170, 452);
             this.backspaceButton.Name = "backspaceButton";
             this.backspaceButton.Size = new System.Drawing.Size(151, 48);
             this.backspaceButton.TabIndex = 10;
@@ -219,7 +219,7 @@
             this.button0.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button0.Font = new System.Drawing.Font("Arial Narrow", 18F, System.Drawing.FontStyle.Bold);
             this.button0.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.button0.Location = new System.Drawing.Point(117, 330);
+            this.button0.Location = new System.Drawing.Point(117, 398);
             this.button0.Name = "button0";
             this.button0.Size = new System.Drawing.Size(99, 48);
             this.button0.TabIndex = 11;
@@ -234,7 +234,7 @@
             this.swapButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.swapButton.Font = new System.Drawing.Font("Arial Narrow", 18F, System.Drawing.FontStyle.Bold);
             this.swapButton.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.swapButton.Location = new System.Drawing.Point(12, 330);
+            this.swapButton.Location = new System.Drawing.Point(12, 398);
             this.swapButton.Name = "swapButton";
             this.swapButton.Size = new System.Drawing.Size(99, 48);
             this.swapButton.TabIndex = 12;
@@ -249,7 +249,7 @@
             this.ConvertButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.ConvertButton.Font = new System.Drawing.Font("Arial Narrow", 18F, System.Drawing.FontStyle.Bold);
             this.ConvertButton.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.ConvertButton.Location = new System.Drawing.Point(222, 330);
+            this.ConvertButton.Location = new System.Drawing.Point(222, 398);
             this.ConvertButton.Name = "ConvertButton";
             this.ConvertButton.Size = new System.Drawing.Size(99, 48);
             this.ConvertButton.TabIndex = 13;
@@ -264,7 +264,7 @@
             this.clearButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.clearButton.Font = new System.Drawing.Font("Arial Narrow", 18F, System.Drawing.FontStyle.Bold);
             this.clearButton.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.clearButton.Location = new System.Drawing.Point(12, 384);
+            this.clearButton.Location = new System.Drawing.Point(12, 452);
             this.clearButton.Name = "clearButton";
             this.clearButton.Size = new System.Drawing.Size(151, 48);
             this.clearButton.TabIndex = 14;
@@ -277,7 +277,7 @@
             this.UserOutputTB.BackColor = System.Drawing.SystemColors.Window;
             this.UserOutputTB.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.UserOutputTB.Font = new System.Drawing.Font("Arial Narrow", 18F, System.Drawing.FontStyle.Bold);
-            this.UserOutputTB.Location = new System.Drawing.Point(12, 88);
+            this.UserOutputTB.Location = new System.Drawing.Point(12, 156);
             this.UserOutputTB.Multiline = true;
             this.UserOutputTB.Name = "UserOutputTB";
             this.UserOutputTB.ReadOnly = true;
@@ -291,7 +291,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.ClientSize = new System.Drawing.Size(333, 446);
+            this.ClientSize = new System.Drawing.Size(333, 512);
             this.Controls.Add(this.UserOutputTB);
             this.Controls.Add(this.clearButton);
             this.Controls.Add(this.ConvertButton);
@@ -309,7 +309,6 @@
             this.Controls.Add(this.button7);
             this.Controls.Add(this.UserInputTB);
             this.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow;
             this.HelpButton = true;
             this.Name = "Form1";
             this.RightToLeft = System.Windows.Forms.RightToLeft.No;
